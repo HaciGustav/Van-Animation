@@ -22,7 +22,7 @@ document.body.addEventListener("keydown", (e) => {
             carImg.setAttribute("src", "./img/img_06.png")
             flag = false
         }else{
-            carImg.setAttribute("src", "./img/Img_05.png")
+            carImg.setAttribute("src", "./img/img_05.png")
             flag = true
         }
     }
