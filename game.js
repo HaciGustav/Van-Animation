@@ -2,7 +2,7 @@ const car = document.querySelector(".car")
 const ground = document.querySelector(".ground")
 const carImg = document.querySelector(".car img")
 let flag = true
-let flagJump = true
+
 
 document.body.addEventListener("keydown", (e)=>{
     if (e.code === "Enter"){
@@ -33,4 +33,3 @@ document.body.addEventListener("keydown", (e) => {
         }  
         
 })
-console.log(car.classList.contains("jump"))
