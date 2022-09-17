@@ -15,9 +15,8 @@ document.body.addEventListener("keydown", (e)=>{
         }
     }
 })
-
-document.body.addEventListener("keydown", (e) => {
-    if (e.code === "Escape"){
+document.body.addEventListener("dblclick", (e) => {
+    
         if(flag){
             carImg.setAttribute("src", "./img/img_06.png")
             flag = false
@@ -25,7 +24,7 @@ document.body.addEventListener("keydown", (e) => {
             carImg.setAttribute("src", "./img/img_05.png")
             flag = true
         }
-    }
+    
 })
 document.body.addEventListener("keydown", (e) => {
     if (e.code === "Space"){
